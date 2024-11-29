@@ -12,7 +12,8 @@
         "wisdom": 10,
         "charisma": 10,
         "speed": {"walk": 30},
-        "environments": ["Arctic"]
+        "environments": ["Arctic"],
+        "type": "Beast"
     }
 ]
 }

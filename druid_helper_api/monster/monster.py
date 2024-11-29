@@ -15,6 +15,7 @@ class Monster(BaseModel):
     charisma: int
     speed: Dict[str, int]
     environments: List[str]
+    type: str
 
 class Monsters(BaseModel):
     monsters: List[Monster]
