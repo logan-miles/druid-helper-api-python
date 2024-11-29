@@ -20,19 +20,7 @@ class Monster(BaseModel):
     type: str
 
     def to_wildshape(self) -> Wildshape:
-        wildshape: Wildshape = Wildshape(
-            name = self.name,
-            description = self.description,
-            hit_points = self.hit_points,
-            armor_class = self.armor_class,
-            challenge_rating = self.challenge_rating,
-            strength = self.strength,
-            dexterity = self.dexterity,
-            constitution = self.constitution,
-            speed = self.speed,
-            environments = self.environments
-        )
-        return wildshape
+        return Wildshape(**self.model_dump())
 
 class Monsters(BaseModel):
     monsters: List[Monster]
