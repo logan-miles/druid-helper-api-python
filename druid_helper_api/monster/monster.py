@@ -3,7 +3,7 @@ from pydantic import BaseModel
 
 class Monster(BaseModel):
     name: str
-    desc: str
+    description: str
     hit_points: int
     armor_class: int
     challenge_rating: float

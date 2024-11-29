@@ -10,4 +10,4 @@ def test_init():
     
     monsters: Monsters = monster_service.get_monsters()
     
-    assert len([m for m in cast(Iterable[Monster], monsters.monsters) if m.name == "Walk 000"]) == 1
+    assert len([m for m in cast(Iterable[Monster], monsters.monsters) if m.name == "walk-000"]) == 1
