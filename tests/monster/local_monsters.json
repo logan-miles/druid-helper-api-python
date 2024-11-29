@@ -1,0 +1,18 @@
+{ "monsters": [
+    {
+        "name": "Walk 000",
+        "desc": "Zero CR Walk Only",
+        "hit_points": 10,
+        "armor_class": 10,
+        "challenge_rating": 0.0,
+        "strength": 10,
+        "dexterity": 10,
+        "constitution": 10,
+        "intelligence": 10,
+        "wisdom": 10,
+        "charisma": 10,
+        "speed": {"walk": 30},
+        "environments": ["Arctic"]
+    }
+]
+}
