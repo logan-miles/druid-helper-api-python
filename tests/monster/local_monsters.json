@@ -1,1322 +1,1144 @@
-[
-  {
-    "name": "walk-000",
-    "description": "Walk 0 CR",
-    "hit_points": 10,
-    "armor_class": 10,
-    "challenge_rating": 0,
-    "strength": 10,
-    "dexterity": 10,
-    "constitution": 10,
-    "intelligence": 10,
-    "wisdom": 10,
-    "charisma": 10,
-    "speed": {
-      "walk": 30
+{
+  "monsters": [
+    {
+      "name": "walk-000",
+      "description": "Walk 0 CR",
+      "hit_points": 10,
+      "armor_class": 10,
+      "challenge_rating": 0,
+      "strength": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "intelligence": 10,
+      "wisdom": 10,
+      "charisma": 10,
+      "speed": {
+        "walk": 30
+      },
+      "environments": ["Arctic", "Coast"],
+      "type": "Beast"
     },
-    "environments": [
-      "Arctic",
-      "Coast"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "swim-000",
-    "description": "Swim 0 CR",
-    "hit_points": 10,
-    "armor_class": 10,
-    "challenge_rating": 0,
-    "strength": 10,
-    "dexterity": 10,
-    "constitution": 10,
-    "intelligence": 10,
-    "wisdom": 10,
-    "charisma": 10,
-    "speed": {
-      "walk": 30,
-      "swim": 30
+    {
+      "name": "swim-000",
+      "description": "Swim 0 CR",
+      "hit_points": 10,
+      "armor_class": 10,
+      "challenge_rating": 0,
+      "strength": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "intelligence": 10,
+      "wisdom": 10,
+      "charisma": 10,
+      "speed": {
+        "walk": 30,
+        "swim": 30
+      },
+      "environments": ["Coast", "Desert"],
+      "type": "Beast"
     },
-    "environments": [
-      "Coast",
-      "Desert"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "fly-000",
-    "description": "Fly 0 CR",
-    "hit_points": 10,
-    "armor_class": 10,
-    "challenge_rating": 0,
-    "strength": 10,
-    "dexterity": 10,
-    "constitution": 10,
-    "intelligence": 10,
-    "wisdom": 10,
-    "charisma": 10,
-    "speed": {
-      "walk": 30,
-      "swim": 30,
-      "fly": 30
+    {
+      "name": "fly-000",
+      "description": "Fly 0 CR",
+      "hit_points": 10,
+      "armor_class": 10,
+      "challenge_rating": 0,
+      "strength": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "intelligence": 10,
+      "wisdom": 10,
+      "charisma": 10,
+      "speed": {
+        "walk": 30,
+        "swim": 30,
+        "fly": 30
+      },
+      "environments": ["Desert", "Forest"],
+      "type": "Beast"
     },
-    "environments": [
-      "Desert",
-      "Forest"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "walk-025",
-    "description": "Walk Quarter CR",
-    "hit_points": 11,
-    "armor_class": 11,
-    "challenge_rating": 0.25,
-    "strength": 11,
-    "dexterity": 11,
-    "constitution": 11,
-    "intelligence": 11,
-    "wisdom": 11,
-    "charisma": 11,
-    "speed": {
-      "walk": 30
+    {
+      "name": "walk-025",
+      "description": "Walk Quarter CR",
+      "hit_points": 11,
+      "armor_class": 11,
+      "challenge_rating": 0.25,
+      "strength": 11,
+      "dexterity": 11,
+      "constitution": 11,
+      "intelligence": 11,
+      "wisdom": 11,
+      "charisma": 11,
+      "speed": {
+        "walk": 30
+      },
+      "environments": ["Forest", "Grassland"],
+      "type": "Beast"
     },
-    "environments": [
-      "Forest",
-      "Grassland"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "swim-025",
-    "description": "Swim Quarter CR",
-    "hit_points": 11,
-    "armor_class": 11,
-    "challenge_rating": 0.25,
-    "strength": 11,
-    "dexterity": 11,
-    "constitution": 11,
-    "intelligence": 11,
-    "wisdom": 11,
-    "charisma": 11,
-    "speed": {
-      "walk": 30,
-      "swim": 30
+    {
+      "name": "swim-025",
+      "description": "Swim Quarter CR",
+      "hit_points": 11,
+      "armor_class": 11,
+      "challenge_rating": 0.25,
+      "strength": 11,
+      "dexterity": 11,
+      "constitution": 11,
+      "intelligence": 11,
+      "wisdom": 11,
+      "charisma": 11,
+      "speed": {
+        "walk": 30,
+        "swim": 30
+      },
+      "environments": ["Grassland", "Mountain"],
+      "type": "Beast"
     },
-    "environments": [
-      "Grassland",
-      "Mountain"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "fly-025",
-    "description": "Fly Quarter CR",
-    "hit_points": 11,
-    "armor_class": 11,
-    "challenge_rating": 0.25,
-    "strength": 11,
-    "dexterity": 11,
-    "constitution": 11,
-    "intelligence": 11,
-    "wisdom": 11,
-    "charisma": 11,
-    "speed": {
-      "walk": 30,
-      "swim": 30,
-      "fly": 30
+    {
+      "name": "fly-025",
+      "description": "Fly Quarter CR",
+      "hit_points": 11,
+      "armor_class": 11,
+      "challenge_rating": 0.25,
+      "strength": 11,
+      "dexterity": 11,
+      "constitution": 11,
+      "intelligence": 11,
+      "wisdom": 11,
+      "charisma": 11,
+      "speed": {
+        "walk": 30,
+        "swim": 30,
+        "fly": 30
+      },
+      "environments": ["Mountain", "Swamp"],
+      "type": "Beast"
     },
-    "environments": [
-      "Mountain",
-      "Swamp"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "walk-050",
-    "description": "Walk Half CR",
-    "hit_points": 12,
-    "armor_class": 12,
-    "challenge_rating": 0.5,
-    "strength": 12,
-    "dexterity": 12,
-    "constitution": 12,
-    "intelligence": 12,
-    "wisdom": 12,
-    "charisma": 12,
-    "speed": {
-      "walk": 30
+    {
+      "name": "walk-050",
+      "description": "Walk Half CR",
+      "hit_points": 12,
+      "armor_class": 12,
+      "challenge_rating": 0.5,
+      "strength": 12,
+      "dexterity": 12,
+      "constitution": 12,
+      "intelligence": 12,
+      "wisdom": 12,
+      "charisma": 12,
+      "speed": {
+        "walk": 30
+      },
+      "environments": ["Swamp", "Underdark"],
+      "type": "Beast"
     },
-    "environments": [
-      "Swamp",
-      "Underdark"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "swim-050",
-    "description": "Swim Half CR",
-    "hit_points": 12,
-    "armor_class": 12,
-    "challenge_rating": 0.5,
-    "strength": 12,
-    "dexterity": 12,
-    "constitution": 12,
-    "intelligence": 12,
-    "wisdom": 12,
-    "charisma": 12,
-    "speed": {
-      "walk": 30,
-      "swim": 30
+    {
+      "name": "swim-050",
+      "description": "Swim Half CR",
+      "hit_points": 12,
+      "armor_class": 12,
+      "challenge_rating": 0.5,
+      "strength": 12,
+      "dexterity": 12,
+      "constitution": 12,
+      "intelligence": 12,
+      "wisdom": 12,
+      "charisma": 12,
+      "speed": {
+        "walk": 30,
+        "swim": 30
+      },
+      "environments": ["Underdark", "Arctic"],
+      "type": "Beast"
     },
-    "environments": [
-      "Underdark",
-      "Arctic"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "fly-050",
-    "description": "Fly Half CR",
-    "hit_points": 12,
-    "armor_class": 12,
-    "challenge_rating": 0.5,
-    "strength": 12,
-    "dexterity": 12,
-    "constitution": 12,
-    "intelligence": 12,
-    "wisdom": 12,
-    "charisma": 12,
-    "speed": {
-      "walk": 30,
-      "swim": 30,
-      "fly": 30
+    {
+      "name": "fly-050",
+      "description": "Fly Half CR",
+      "hit_points": 12,
+      "armor_class": 12,
+      "challenge_rating": 0.5,
+      "strength": 12,
+      "dexterity": 12,
+      "constitution": 12,
+      "intelligence": 12,
+      "wisdom": 12,
+      "charisma": 12,
+      "speed": {
+        "walk": 30,
+        "swim": 30,
+        "fly": 30
+      },
+      "environments": ["Arctic", "Coast"],
+      "type": "Beast"
     },
-    "environments": [
-      "Arctic",
-      "Coast"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "walk-100",
-    "description": "Walk 1 CR",
-    "hit_points": 13,
-    "armor_class": 13,
-    "challenge_rating": 1,
-    "strength": 13,
-    "dexterity": 13,
-    "constitution": 13,
-    "intelligence": 13,
-    "wisdom": 13,
-    "charisma": 13,
-    "speed": {
-      "walk": 30
+    {
+      "name": "walk-100",
+      "description": "Walk 1 CR",
+      "hit_points": 13,
+      "armor_class": 13,
+      "challenge_rating": 1,
+      "strength": 13,
+      "dexterity": 13,
+      "constitution": 13,
+      "intelligence": 13,
+      "wisdom": 13,
+      "charisma": 13,
+      "speed": {
+        "walk": 30
+      },
+      "environments": ["Coast", "Desert"],
+      "type": "Beast"
     },
-    "environments": [
-      "Coast",
-      "Desert"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "swim-100",
-    "description": "Swim 1 CR",
-    "hit_points": 13,
-    "armor_class": 13,
-    "challenge_rating": 1,
-    "strength": 13,
-    "dexterity": 13,
-    "constitution": 13,
-    "intelligence": 13,
-    "wisdom": 13,
-    "charisma": 13,
-    "speed": {
-      "walk": 30,
-      "swim": 30
+    {
+      "name": "swim-100",
+      "description": "Swim 1 CR",
+      "hit_points": 13,
+      "armor_class": 13,
+      "challenge_rating": 1,
+      "strength": 13,
+      "dexterity": 13,
+      "constitution": 13,
+      "intelligence": 13,
+      "wisdom": 13,
+      "charisma": 13,
+      "speed": {
+        "walk": 30,
+        "swim": 30
+      },
+      "environments": ["Desert", "Forest"],
+      "type": "Beast"
     },
-    "environments": [
-      "Desert",
-      "Forest"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "fly-100",
-    "description": "Fly 1 CR",
-    "hit_points": 13,
-    "armor_class": 13,
-    "challenge_rating": 1,
-    "strength": 13,
-    "dexterity": 13,
-    "constitution": 13,
-    "intelligence": 13,
-    "wisdom": 13,
-    "charisma": 13,
-    "speed": {
-      "walk": 30,
-      "swim": 30,
-      "fly": 30
+    {
+      "name": "fly-100",
+      "description": "Fly 1 CR",
+      "hit_points": 13,
+      "armor_class": 13,
+      "challenge_rating": 1,
+      "strength": 13,
+      "dexterity": 13,
+      "constitution": 13,
+      "intelligence": 13,
+      "wisdom": 13,
+      "charisma": 13,
+      "speed": {
+        "walk": 30,
+        "swim": 30,
+        "fly": 30
+      },
+      "environments": ["Forest", "Grassland"],
+      "type": "Beast"
     },
-    "environments": [
-      "Forest",
-      "Grassland"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "walk-200",
-    "description": "Walk 2 CR",
-    "hit_points": 14,
-    "armor_class": 14,
-    "challenge_rating": 2,
-    "strength": 14,
-    "dexterity": 14,
-    "constitution": 14,
-    "intelligence": 14,
-    "wisdom": 14,
-    "charisma": 14,
-    "speed": {
-      "walk": 30
+    {
+      "name": "walk-200",
+      "description": "Walk 2 CR",
+      "hit_points": 14,
+      "armor_class": 14,
+      "challenge_rating": 2,
+      "strength": 14,
+      "dexterity": 14,
+      "constitution": 14,
+      "intelligence": 14,
+      "wisdom": 14,
+      "charisma": 14,
+      "speed": {
+        "walk": 30
+      },
+      "environments": ["Grassland", "Mountain"],
+      "type": "Beast"
     },
-    "environments": [
-      "Grassland",
-      "Mountain"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "swim-200",
-    "description": "Swim 2 CR",
-    "hit_points": 14,
-    "armor_class": 14,
-    "challenge_rating": 2,
-    "strength": 14,
-    "dexterity": 14,
-    "constitution": 14,
-    "intelligence": 14,
-    "wisdom": 14,
-    "charisma": 14,
-    "speed": {
-      "walk": 30,
-      "swim": 30
+    {
+      "name": "swim-200",
+      "description": "Swim 2 CR",
+      "hit_points": 14,
+      "armor_class": 14,
+      "challenge_rating": 2,
+      "strength": 14,
+      "dexterity": 14,
+      "constitution": 14,
+      "intelligence": 14,
+      "wisdom": 14,
+      "charisma": 14,
+      "speed": {
+        "walk": 30,
+        "swim": 30
+      },
+      "environments": ["Mountain", "Swamp"],
+      "type": "Beast"
     },
-    "environments": [
-      "Mountain",
-      "Swamp"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "fly-200",
-    "description": "Fly 2 CR",
-    "hit_points": 14,
-    "armor_class": 14,
-    "challenge_rating": 2,
-    "strength": 14,
-    "dexterity": 14,
-    "constitution": 14,
-    "intelligence": 14,
-    "wisdom": 14,
-    "charisma": 14,
-    "speed": {
-      "walk": 30,
-      "swim": 30,
-      "fly": 30
+    {
+      "name": "fly-200",
+      "description": "Fly 2 CR",
+      "hit_points": 14,
+      "armor_class": 14,
+      "challenge_rating": 2,
+      "strength": 14,
+      "dexterity": 14,
+      "constitution": 14,
+      "intelligence": 14,
+      "wisdom": 14,
+      "charisma": 14,
+      "speed": {
+        "walk": 30,
+        "swim": 30,
+        "fly": 30
+      },
+      "environments": ["Swamp", "Underdark"],
+      "type": "Beast"
     },
-    "environments": [
-      "Swamp",
-      "Underdark"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "walk-300",
-    "description": "Walk 3 CR",
-    "hit_points": 15,
-    "armor_class": 15,
-    "challenge_rating": 3,
-    "strength": 15,
-    "dexterity": 15,
-    "constitution": 15,
-    "intelligence": 15,
-    "wisdom": 15,
-    "charisma": 15,
-    "speed": {
-      "walk": 30
+    {
+      "name": "walk-300",
+      "description": "Walk 3 CR",
+      "hit_points": 15,
+      "armor_class": 15,
+      "challenge_rating": 3,
+      "strength": 15,
+      "dexterity": 15,
+      "constitution": 15,
+      "intelligence": 15,
+      "wisdom": 15,
+      "charisma": 15,
+      "speed": {
+        "walk": 30
+      },
+      "environments": ["Underdark", "Arctic"],
+      "type": "Beast"
     },
-    "environments": [
-      "Underdark",
-      "Arctic"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "swim-300",
-    "description": "Swim 3 CR",
-    "hit_points": 15,
-    "armor_class": 15,
-    "challenge_rating": 3,
-    "strength": 15,
-    "dexterity": 15,
-    "constitution": 15,
-    "intelligence": 15,
-    "wisdom": 15,
-    "charisma": 15,
-    "speed": {
-      "walk": 30,
-      "swim": 30
+    {
+      "name": "swim-300",
+      "description": "Swim 3 CR",
+      "hit_points": 15,
+      "armor_class": 15,
+      "challenge_rating": 3,
+      "strength": 15,
+      "dexterity": 15,
+      "constitution": 15,
+      "intelligence": 15,
+      "wisdom": 15,
+      "charisma": 15,
+      "speed": {
+        "walk": 30,
+        "swim": 30
+      },
+      "environments": ["Arctic", "Coast"],
+      "type": "Beast"
     },
-    "environments": [
-      "Arctic",
-      "Coast"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "fly-300",
-    "description": "Fly 3 CR",
-    "hit_points": 15,
-    "armor_class": 15,
-    "challenge_rating": 3,
-    "strength": 15,
-    "dexterity": 15,
-    "constitution": 15,
-    "intelligence": 15,
-    "wisdom": 15,
-    "charisma": 15,
-    "speed": {
-      "walk": 30,
-      "swim": 30,
-      "fly": 30
+    {
+      "name": "fly-300",
+      "description": "Fly 3 CR",
+      "hit_points": 15,
+      "armor_class": 15,
+      "challenge_rating": 3,
+      "strength": 15,
+      "dexterity": 15,
+      "constitution": 15,
+      "intelligence": 15,
+      "wisdom": 15,
+      "charisma": 15,
+      "speed": {
+        "walk": 30,
+        "swim": 30,
+        "fly": 30
+      },
+      "environments": ["Coast", "Desert"],
+      "type": "Beast"
     },
-    "environments": [
-      "Coast",
-      "Desert"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "walk-400",
-    "description": "Walk 4 CR",
-    "hit_points": 16,
-    "armor_class": 16,
-    "challenge_rating": 4,
-    "strength": 16,
-    "dexterity": 16,
-    "constitution": 16,
-    "intelligence": 16,
-    "wisdom": 16,
-    "charisma": 16,
-    "speed": {
-      "walk": 30
+    {
+      "name": "walk-400",
+      "description": "Walk 4 CR",
+      "hit_points": 16,
+      "armor_class": 16,
+      "challenge_rating": 4,
+      "strength": 16,
+      "dexterity": 16,
+      "constitution": 16,
+      "intelligence": 16,
+      "wisdom": 16,
+      "charisma": 16,
+      "speed": {
+        "walk": 30
+      },
+      "environments": ["Desert", "Forest"],
+      "type": "Beast"
     },
-    "environments": [
-      "Desert",
-      "Forest"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "swim-400",
-    "description": "Swim 4 CR",
-    "hit_points": 16,
-    "armor_class": 16,
-    "challenge_rating": 4,
-    "strength": 16,
-    "dexterity": 16,
-    "constitution": 16,
-    "intelligence": 16,
-    "wisdom": 16,
-    "charisma": 16,
-    "speed": {
-      "walk": 30,
-      "swim": 30
+    {
+      "name": "swim-400",
+      "description": "Swim 4 CR",
+      "hit_points": 16,
+      "armor_class": 16,
+      "challenge_rating": 4,
+      "strength": 16,
+      "dexterity": 16,
+      "constitution": 16,
+      "intelligence": 16,
+      "wisdom": 16,
+      "charisma": 16,
+      "speed": {
+        "walk": 30,
+        "swim": 30
+      },
+      "environments": ["Forest", "Grassland"],
+      "type": "Beast"
     },
-    "environments": [
-      "Forest",
-      "Grassland"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "fly-400",
-    "description": "Fly 4 CR",
-    "hit_points": 16,
-    "armor_class": 16,
-    "challenge_rating": 4,
-    "strength": 16,
-    "dexterity": 16,
-    "constitution": 16,
-    "intelligence": 16,
-    "wisdom": 16,
-    "charisma": 16,
-    "speed": {
-      "walk": 30,
-      "swim": 30,
-      "fly": 30
+    {
+      "name": "fly-400",
+      "description": "Fly 4 CR",
+      "hit_points": 16,
+      "armor_class": 16,
+      "challenge_rating": 4,
+      "strength": 16,
+      "dexterity": 16,
+      "constitution": 16,
+      "intelligence": 16,
+      "wisdom": 16,
+      "charisma": 16,
+      "speed": {
+        "walk": 30,
+        "swim": 30,
+        "fly": 30
+      },
+      "environments": ["Grassland", "Mountain"],
+      "type": "Beast"
     },
-    "environments": [
-      "Grassland",
-      "Mountain"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "walk-500",
-    "description": "Walk 5 CR",
-    "hit_points": 17,
-    "armor_class": 17,
-    "challenge_rating": 5,
-    "strength": 17,
-    "dexterity": 17,
-    "constitution": 17,
-    "intelligence": 17,
-    "wisdom": 17,
-    "charisma": 17,
-    "speed": {
-      "walk": 30
+    {
+      "name": "walk-500",
+      "description": "Walk 5 CR",
+      "hit_points": 17,
+      "armor_class": 17,
+      "challenge_rating": 5,
+      "strength": 17,
+      "dexterity": 17,
+      "constitution": 17,
+      "intelligence": 17,
+      "wisdom": 17,
+      "charisma": 17,
+      "speed": {
+        "walk": 30
+      },
+      "environments": ["Mountain", "Swamp"],
+      "type": "Beast"
     },
-    "environments": [
-      "Mountain",
-      "Swamp"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "swim-500",
-    "description": "Swim 5 CR",
-    "hit_points": 17,
-    "armor_class": 17,
-    "challenge_rating": 5,
-    "strength": 17,
-    "dexterity": 17,
-    "constitution": 17,
-    "intelligence": 17,
-    "wisdom": 17,
-    "charisma": 17,
-    "speed": {
-      "walk": 30,
-      "swim": 30
+    {
+      "name": "swim-500",
+      "description": "Swim 5 CR",
+      "hit_points": 17,
+      "armor_class": 17,
+      "challenge_rating": 5,
+      "strength": 17,
+      "dexterity": 17,
+      "constitution": 17,
+      "intelligence": 17,
+      "wisdom": 17,
+      "charisma": 17,
+      "speed": {
+        "walk": 30,
+        "swim": 30
+      },
+      "environments": ["Swamp", "Underdark"],
+      "type": "Beast"
     },
-    "environments": [
-      "Swamp",
-      "Underdark"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "fly-500",
-    "description": "Fly 5 CR",
-    "hit_points": 17,
-    "armor_class": 17,
-    "challenge_rating": 5,
-    "strength": 17,
-    "dexterity": 17,
-    "constitution": 17,
-    "intelligence": 17,
-    "wisdom": 17,
-    "charisma": 17,
-    "speed": {
-      "walk": 30,
-      "swim": 30,
-      "fly": 30
+    {
+      "name": "fly-500",
+      "description": "Fly 5 CR",
+      "hit_points": 17,
+      "armor_class": 17,
+      "challenge_rating": 5,
+      "strength": 17,
+      "dexterity": 17,
+      "constitution": 17,
+      "intelligence": 17,
+      "wisdom": 17,
+      "charisma": 17,
+      "speed": {
+        "walk": 30,
+        "swim": 30,
+        "fly": 30
+      },
+      "environments": ["Underdark", "Arctic"],
+      "type": "Beast"
     },
-    "environments": [
-      "Underdark",
-      "Arctic"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "walk-600",
-    "description": "Walk 6 CR",
-    "hit_points": 18,
-    "armor_class": 18,
-    "challenge_rating": 6,
-    "strength": 18,
-    "dexterity": 18,
-    "constitution": 18,
-    "intelligence": 18,
-    "wisdom": 18,
-    "charisma": 18,
-    "speed": {
-      "walk": 30
+    {
+      "name": "walk-600",
+      "description": "Walk 6 CR",
+      "hit_points": 18,
+      "armor_class": 18,
+      "challenge_rating": 6,
+      "strength": 18,
+      "dexterity": 18,
+      "constitution": 18,
+      "intelligence": 18,
+      "wisdom": 18,
+      "charisma": 18,
+      "speed": {
+        "walk": 30
+      },
+      "environments": ["Arctic", "Coast"],
+      "type": "Beast"
     },
-    "environments": [
-      "Arctic",
-      "Coast"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "swim-600",
-    "description": "Swim 6 CR",
-    "hit_points": 18,
-    "armor_class": 18,
-    "challenge_rating": 6,
-    "strength": 18,
-    "dexterity": 18,
-    "constitution": 18,
-    "intelligence": 18,
-    "wisdom": 18,
-    "charisma": 18,
-    "speed": {
-      "walk": 30,
-      "swim": 30
+    {
+      "name": "swim-600",
+      "description": "Swim 6 CR",
+      "hit_points": 18,
+      "armor_class": 18,
+      "challenge_rating": 6,
+      "strength": 18,
+      "dexterity": 18,
+      "constitution": 18,
+      "intelligence": 18,
+      "wisdom": 18,
+      "charisma": 18,
+      "speed": {
+        "walk": 30,
+        "swim": 30
+      },
+      "environments": ["Coast", "Desert"],
+      "type": "Beast"
     },
-    "environments": [
-      "Coast",
-      "Desert"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "fly-600",
-    "description": "Fly 6 CR",
-    "hit_points": 18,
-    "armor_class": 18,
-    "challenge_rating": 6,
-    "strength": 18,
-    "dexterity": 18,
-    "constitution": 18,
-    "intelligence": 18,
-    "wisdom": 18,
-    "charisma": 18,
-    "speed": {
-      "walk": 30,
-      "swim": 30,
-      "fly": 30
+    {
+      "name": "fly-600",
+      "description": "Fly 6 CR",
+      "hit_points": 18,
+      "armor_class": 18,
+      "challenge_rating": 6,
+      "strength": 18,
+      "dexterity": 18,
+      "constitution": 18,
+      "intelligence": 18,
+      "wisdom": 18,
+      "charisma": 18,
+      "speed": {
+        "walk": 30,
+        "swim": 30,
+        "fly": 30
+      },
+      "environments": ["Desert", "Forest"],
+      "type": "Beast"
     },
-    "environments": [
-      "Desert",
-      "Forest"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "walk-700",
-    "description": "Walk 7 CR",
-    "hit_points": 19,
-    "armor_class": 19,
-    "challenge_rating": 7,
-    "strength": 19,
-    "dexterity": 19,
-    "constitution": 19,
-    "intelligence": 19,
-    "wisdom": 19,
-    "charisma": 19,
-    "speed": {
-      "walk": 30
+    {
+      "name": "walk-700",
+      "description": "Walk 7 CR",
+      "hit_points": 19,
+      "armor_class": 19,
+      "challenge_rating": 7,
+      "strength": 19,
+      "dexterity": 19,
+      "constitution": 19,
+      "intelligence": 19,
+      "wisdom": 19,
+      "charisma": 19,
+      "speed": {
+        "walk": 30
+      },
+      "environments": ["Forest", "Grassland"],
+      "type": "Beast"
     },
-    "environments": [
-      "Forest",
-      "Grassland"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "swim-700",
-    "description": "Swim 7 CR",
-    "hit_points": 19,
-    "armor_class": 19,
-    "challenge_rating": 7,
-    "strength": 19,
-    "dexterity": 19,
-    "constitution": 19,
-    "intelligence": 19,
-    "wisdom": 19,
-    "charisma": 19,
-    "speed": {
-      "walk": 30,
-      "swim": 30
+    {
+      "name": "swim-700",
+      "description": "Swim 7 CR",
+      "hit_points": 19,
+      "armor_class": 19,
+      "challenge_rating": 7,
+      "strength": 19,
+      "dexterity": 19,
+      "constitution": 19,
+      "intelligence": 19,
+      "wisdom": 19,
+      "charisma": 19,
+      "speed": {
+        "walk": 30,
+        "swim": 30
+      },
+      "environments": ["Grassland", "Mountain"],
+      "type": "Beast"
     },
-    "environments": [
-      "Grassland",
-      "Mountain"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "fly-700",
-    "description": "Fly 7 CR",
-    "hit_points": 19,
-    "armor_class": 19,
-    "challenge_rating": 7,
-    "strength": 19,
-    "dexterity": 19,
-    "constitution": 19,
-    "intelligence": 19,
-    "wisdom": 19,
-    "charisma": 19,
-    "speed": {
-      "walk": 30,
-      "swim": 30,
-      "fly": 30
+    {
+      "name": "fly-700",
+      "description": "Fly 7 CR",
+      "hit_points": 19,
+      "armor_class": 19,
+      "challenge_rating": 7,
+      "strength": 19,
+      "dexterity": 19,
+      "constitution": 19,
+      "intelligence": 19,
+      "wisdom": 19,
+      "charisma": 19,
+      "speed": {
+        "walk": 30,
+        "swim": 30,
+        "fly": 30
+      },
+      "environments": ["Mountain", "Swamp"],
+      "type": "Beast"
     },
-    "environments": [
-      "Mountain",
-      "Swamp"
-    ],
-    "type": "Beast"
-  },
-  {
-    "name": "walk-000-monstrosity",
-    "description": "Walk 0 CR Monstrosity",
-    "hit_points": 10,
-    "armor_class": 10,
-    "challenge_rating": 0,
-    "strength": 10,
-    "dexterity": 10,
-    "constitution": 10,
-    "intelligence": 10,
-    "wisdom": 10,
-    "charisma": 10,
-    "speed": {
-      "walk": 30
+    {
+      "name": "walk-000-monstrosity",
+      "description": "Walk 0 CR Monstrosity",
+      "hit_points": 10,
+      "armor_class": 10,
+      "challenge_rating": 0,
+      "strength": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "intelligence": 10,
+      "wisdom": 10,
+      "charisma": 10,
+      "speed": {
+        "walk": 30
+      },
+      "environments": ["Swamp", "Underdark"],
+      "type": "Monstrosity"
     },
-    "environments": [
-      "Swamp",
-      "Underdark"
-    ],
-    "type": "Monstrosity"
-  },
-  {
-    "name": "swim-000-monstrosity",
-    "description": "Swim 0 CR Monstrosity",
-    "hit_points": 10,
-    "armor_class": 10,
-    "challenge_rating": 0,
-    "strength": 10,
-    "dexterity": 10,
-    "constitution": 10,
-    "intelligence": 10,
-    "wisdom": 10,
-    "charisma": 10,
-    "speed": {
-      "walk": 30,
-      "swim": 30
+    {
+      "name": "swim-000-monstrosity",
+      "description": "Swim 0 CR Monstrosity",
+      "hit_points": 10,
+      "armor_class": 10,
+      "challenge_rating": 0,
+      "strength": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "intelligence": 10,
+      "wisdom": 10,
+      "charisma": 10,
+      "speed": {
+        "walk": 30,
+        "swim": 30
+      },
+      "environments": ["Underdark", "Arctic"],
+      "type": "Monstrosity"
     },
-    "environments": [
-      "Underdark",
-      "Arctic"
-    ],
-    "type": "Monstrosity"
-  },
-  {
-    "name": "fly-000-monstrosity",
-    "description": "Fly 0 CR Monstrosity",
-    "hit_points": 10,
-    "armor_class": 10,
-    "challenge_rating": 0,
-    "strength": 10,
-    "dexterity": 10,
-    "constitution": 10,
-    "intelligence": 10,
-    "wisdom": 10,
-    "charisma": 10,
-    "speed": {
-      "walk": 30,
-      "swim": 30,
-      "fly": 30
+    {
+      "name": "fly-000-monstrosity",
+      "description": "Fly 0 CR Monstrosity",
+      "hit_points": 10,
+      "armor_class": 10,
+      "challenge_rating": 0,
+      "strength": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "intelligence": 10,
+      "wisdom": 10,
+      "charisma": 10,
+      "speed": {
+        "walk": 30,
+        "swim": 30,
+        "fly": 30
+      },
+      "environments": ["Arctic", "Coast"],
+      "type": "Monstrosity"
     },
-    "environments": [
-      "Arctic",
-      "Coast"
-    ],
-    "type": "Monstrosity"
-  },
-  {
-    "name": "walk-025-monstrosity",
-    "description": "Walk Quarter CR Monstrosity",
-    "hit_points": 11,
-    "armor_class": 11,
-    "challenge_rating": 0.25,
-    "strength": 11,
-    "dexterity": 11,
-    "constitution": 11,
-    "intelligence": 11,
-    "wisdom": 11,
-    "charisma": 11,
-    "speed": {
-      "walk": 30
+    {
+      "name": "walk-025-monstrosity",
+      "description": "Walk Quarter CR Monstrosity",
+      "hit_points": 11,
+      "armor_class": 11,
+      "challenge_rating": 0.25,
+      "strength": 11,
+      "dexterity": 11,
+      "constitution": 11,
+      "intelligence": 11,
+      "wisdom": 11,
+      "charisma": 11,
+      "speed": {
+        "walk": 30
+      },
+      "environments": ["Coast", "Desert"],
+      "type": "Monstrosity"
     },
-    "environments": [
-      "Coast",
-      "Desert"
-    ],
-    "type": "Monstrosity"
-  },
-  {
-    "name": "swim-025-monstrosity",
-    "description": "Swim Quarter CR Monstrosity",
-    "hit_points": 11,
-    "armor_class": 11,
-    "challenge_rating": 0.25,
-    "strength": 11,
-    "dexterity": 11,
-    "constitution": 11,
-    "intelligence": 11,
-    "wisdom": 11,
-    "charisma": 11,
-    "speed": {
-      "walk": 30,
-      "swim": 30
+    {
+      "name": "swim-025-monstrosity",
+      "description": "Swim Quarter CR Monstrosity",
+      "hit_points": 11,
+      "armor_class": 11,
+      "challenge_rating": 0.25,
+      "strength": 11,
+      "dexterity": 11,
+      "constitution": 11,
+      "intelligence": 11,
+      "wisdom": 11,
+      "charisma": 11,
+      "speed": {
+        "walk": 30,
+        "swim": 30
+      },
+      "environments": ["Desert", "Forest"],
+      "type": "Monstrosity"
     },
-    "environments": [
-      "Desert",
-      "Forest"
-    ],
-    "type": "Monstrosity"
-  },
-  {
-    "name": "fly-025-monstrosity",
-    "description": "Fly Quarter CR Monstrosity",
-    "hit_points": 11,
-    "armor_class": 11,
-    "challenge_rating": 0.25,
-    "strength": 11,
-    "dexterity": 11,
-    "constitution": 11,
-    "intelligence": 11,
-    "wisdom": 11,
-    "charisma": 11,
-    "speed": {
-      "walk": 30,
-      "swim": 30,
-      "fly": 30
+    {
+      "name": "fly-025-monstrosity",
+      "description": "Fly Quarter CR Monstrosity",
+      "hit_points": 11,
+      "armor_class": 11,
+      "challenge_rating": 0.25,
+      "strength": 11,
+      "dexterity": 11,
+      "constitution": 11,
+      "intelligence": 11,
+      "wisdom": 11,
+      "charisma": 11,
+      "speed": {
+        "walk": 30,
+        "swim": 30,
+        "fly": 30
+      },
+      "environments": ["Forest", "Grassland"],
+      "type": "Monstrosity"
     },
-    "environments": [
-      "Forest",
-      "Grassland"
-    ],
-    "type": "Monstrosity"
-  },
-  {
-    "name": "walk-050-monstrosity",
-    "description": "Walk Half CR Monstrosity",
-    "hit_points": 12,
-    "armor_class": 12,
-    "challenge_rating": 0.5,
-    "strength": 12,
-    "dexterity": 12,
-    "constitution": 12,
-    "intelligence": 12,
-    "wisdom": 12,
-    "charisma": 12,
-    "speed": {
-      "walk": 30
+    {
+      "name": "walk-050-monstrosity",
+      "description": "Walk Half CR Monstrosity",
+      "hit_points": 12,
+      "armor_class": 12,
+      "challenge_rating": 0.5,
+      "strength": 12,
+      "dexterity": 12,
+      "constitution": 12,
+      "intelligence": 12,
+      "wisdom": 12,
+      "charisma": 12,
+      "speed": {
+        "walk": 30
+      },
+      "environments": ["Grassland", "Mountain"],
+      "type": "Monstrosity"
     },
-    "environments": [
-      "Grassland",
-      "Mountain"
-    ],
-    "type": "Monstrosity"
-  },
-  {
-    "name": "swim-050-monstrosity",
-    "description": "Swim Half CR Monstrosity",
-    "hit_points": 12,
-    "armor_class": 12,
-    "challenge_rating": 0.5,
-    "strength": 12,
-    "dexterity": 12,
-    "constitution": 12,
-    "intelligence": 12,
-    "wisdom": 12,
-    "charisma": 12,
-    "speed": {
-      "walk": 30,
-      "swim": 30
+    {
+      "name": "swim-050-monstrosity",
+      "description": "Swim Half CR Monstrosity",
+      "hit_points": 12,
+      "armor_class": 12,
+      "challenge_rating": 0.5,
+      "strength": 12,
+      "dexterity": 12,
+      "constitution": 12,
+      "intelligence": 12,
+      "wisdom": 12,
+      "charisma": 12,
+      "speed": {
+        "walk": 30,
+        "swim": 30
+      },
+      "environments": ["Mountain", "Swamp"],
+      "type": "Monstrosity"
     },
-    "environments": [
-      "Mountain",
-      "Swamp"
-    ],
-    "type": "Monstrosity"
-  },
-  {
-    "name": "fly-050-monstrosity",
-    "description": "Fly Half CR Monstrosity",
-    "hit_points": 12,
-    "armor_class": 12,
-    "challenge_rating": 0.5,
-    "strength": 12,
-    "dexterity": 12,
-    "constitution": 12,
-    "intelligence": 12,
-    "wisdom": 12,
-    "charisma": 12,
-    "speed": {
-      "walk": 30,
-      "swim": 30,
-      "fly": 30
+    {
+      "name": "fly-050-monstrosity",
+      "description": "Fly Half CR Monstrosity",
+      "hit_points": 12,
+      "armor_class": 12,
+      "challenge_rating": 0.5,
+      "strength": 12,
+      "dexterity": 12,
+      "constitution": 12,
+      "intelligence": 12,
+      "wisdom": 12,
+      "charisma": 12,
+      "speed": {
+        "walk": 30,
+        "swim": 30,
+        "fly": 30
+      },
+      "environments": ["Swamp", "Underdark"],
+      "type": "Monstrosity"
     },
-    "environments": [
-      "Swamp",
-      "Underdark"
-    ],
-    "type": "Monstrosity"
-  },
-  {
-    "name": "walk-100-monstrosity",
-    "description": "Walk 1 CR Monstrosity",
-    "hit_points": 13,
-    "armor_class": 13,
-    "challenge_rating": 1,
-    "strength": 13,
-    "dexterity": 13,
-    "constitution": 13,
-    "intelligence": 13,
-    "wisdom": 13,
-    "charisma": 13,
-    "speed": {
-      "walk": 30
+    {
+      "name": "walk-100-monstrosity",
+      "description": "Walk 1 CR Monstrosity",
+      "hit_points": 13,
+      "armor_class": 13,
+      "challenge_rating": 1,
+      "strength": 13,
+      "dexterity": 13,
+      "constitution": 13,
+      "intelligence": 13,
+      "wisdom": 13,
+      "charisma": 13,
+      "speed": {
+        "walk": 30
+      },
+      "environments": ["Underdark", "Arctic"],
+      "type": "Monstrosity"
     },
-    "environments": [
-      "Underdark",
-      "Arctic"
-    ],
-    "type": "Monstrosity"
-  },
-  {
-    "name": "swim-100-monstrosity",
-    "description": "Swim 1 CR Monstrosity",
-    "hit_points": 13,
-    "armor_class": 13,
-    "challenge_rating": 1,
-    "strength": 13,
-    "dexterity": 13,
-    "constitution": 13,
-    "intelligence": 13,
-    "wisdom": 13,
-    "charisma": 13,
-    "speed": {
-      "walk": 30,
-      "swim": 30
+    {
+      "name": "swim-100-monstrosity",
+      "description": "Swim 1 CR Monstrosity",
+      "hit_points": 13,
+      "armor_class": 13,
+      "challenge_rating": 1,
+      "strength": 13,
+      "dexterity": 13,
+      "constitution": 13,
+      "intelligence": 13,
+      "wisdom": 13,
+      "charisma": 13,
+      "speed": {
+        "walk": 30,
+        "swim": 30
+      },
+      "environments": ["Arctic", "Coast"],
+      "type": "Monstrosity"
     },
-    "environments": [
-      "Arctic",
-      "Coast"
-    ],
-    "type": "Monstrosity"
-  },
-  {
-    "name": "fly-100-monstrosity",
-    "description": "Fly 1 CR Monstrosity",
-    "hit_points": 13,
-    "armor_class": 13,
-    "challenge_rating": 1,
-    "strength": 13,
-    "dexterity": 13,
-    "constitution": 13,
-    "intelligence": 13,
-    "wisdom": 13,
-    "charisma": 13,
-    "speed": {
-      "walk": 30,
-      "swim": 30,
-      "fly": 30
+    {
+      "name": "fly-100-monstrosity",
+      "description": "Fly 1 CR Monstrosity",
+      "hit_points": 13,
+      "armor_class": 13,
+      "challenge_rating": 1,
+      "strength": 13,
+      "dexterity": 13,
+      "constitution": 13,
+      "intelligence": 13,
+      "wisdom": 13,
+      "charisma": 13,
+      "speed": {
+        "walk": 30,
+        "swim": 30,
+        "fly": 30
+      },
+      "environments": ["Coast", "Desert"],
+      "type": "Monstrosity"
     },
-    "environments": [
-      "Coast",
-      "Desert"
-    ],
-    "type": "Monstrosity"
-  },
-  {
-    "name": "walk-200-monstrosity",
-    "description": "Walk 2 CR Monstrosity",
-    "hit_points": 14,
-    "armor_class": 14,
-    "challenge_rating": 2,
-    "strength": 14,
-    "dexterity": 14,
-    "constitution": 14,
-    "intelligence": 14,
-    "wisdom": 14,
-    "charisma": 14,
-    "speed": {
-      "walk": 30
+    {
+      "name": "walk-200-monstrosity",
+      "description": "Walk 2 CR Monstrosity",
+      "hit_points": 14,
+      "armor_class": 14,
+      "challenge_rating": 2,
+      "strength": 14,
+      "dexterity": 14,
+      "constitution": 14,
+      "intelligence": 14,
+      "wisdom": 14,
+      "charisma": 14,
+      "speed": {
+        "walk": 30
+      },
+      "environments": ["Desert", "Forest"],
+      "type": "Monstrosity"
     },
-    "environments": [
-      "Desert",
-      "Forest"
-    ],
-    "type": "Monstrosity"
-  },
-  {
-    "name": "swim-200-monstrosity",
-    "description": "Swim 2 CR Monstrosity",
-    "hit_points": 14,
-    "armor_class": 14,
-    "challenge_rating": 2,
-    "strength": 14,
-    "dexterity": 14,
-    "constitution": 14,
-    "intelligence": 14,
-    "wisdom": 14,
-    "charisma": 14,
-    "speed": {
-      "walk": 30,
-      "swim": 30
+    {
+      "name": "swim-200-monstrosity",
+      "description": "Swim 2 CR Monstrosity",
+      "hit_points": 14,
+      "armor_class": 14,
+      "challenge_rating": 2,
+      "strength": 14,
+      "dexterity": 14,
+      "constitution": 14,
+      "intelligence": 14,
+      "wisdom": 14,
+      "charisma": 14,
+      "speed": {
+        "walk": 30,
+        "swim": 30
+      },
+      "environments": ["Forest", "Grassland"],
+      "type": "Monstrosity"
     },
-    "environments": [
-      "Forest",
-      "Grassland"
-    ],
-    "type": "Monstrosity"
-  },
-  {
-    "name": "fly-200-monstrosity",
-    "description": "Fly 2 CR Monstrosity",
-    "hit_points": 14,
-    "armor_class": 14,
-    "challenge_rating": 2,
-    "strength": 14,
-    "dexterity": 14,
-    "constitution": 14,
-    "intelligence": 14,
-    "wisdom": 14,
-    "charisma": 14,
-    "speed": {
-      "walk": 30,
-      "swim": 30,
-      "fly": 30
+    {
+      "name": "fly-200-monstrosity",
+      "description": "Fly 2 CR Monstrosity",
+      "hit_points": 14,
+      "armor_class": 14,
+      "challenge_rating": 2,
+      "strength": 14,
+      "dexterity": 14,
+      "constitution": 14,
+      "intelligence": 14,
+      "wisdom": 14,
+      "charisma": 14,
+      "speed": {
+        "walk": 30,
+        "swim": 30,
+        "fly": 30
+      },
+      "environments": ["Grassland", "Mountain"],
+      "type": "Monstrosity"
     },
-    "environments": [
-      "Grassland",
-      "Mountain"
-    ],
-    "type": "Monstrosity"
-  },
-  {
-    "name": "walk-300-monstrosity",
-    "description": "Walk 3 CR Monstrosity",
-    "hit_points": 15,
-    "armor_class": 15,
-    "challenge_rating": 3,
-    "strength": 15,
-    "dexterity": 15,
-    "constitution": 15,
-    "intelligence": 15,
-    "wisdom": 15,
-    "charisma": 15,
-    "speed": {
-      "walk": 30
+    {
+      "name": "walk-300-monstrosity",
+      "description": "Walk 3 CR Monstrosity",
+      "hit_points": 15,
+      "armor_class": 15,
+      "challenge_rating": 3,
+      "strength": 15,
+      "dexterity": 15,
+      "constitution": 15,
+      "intelligence": 15,
+      "wisdom": 15,
+      "charisma": 15,
+      "speed": {
+        "walk": 30
+      },
+      "environments": ["Mountain", "Swamp"],
+      "type": "Monstrosity"
     },
-    "environments": [
-      "Mountain",
-      "Swamp"
-    ],
-    "type": "Monstrosity"
-  },
-  {
-    "name": "swim-300-monstrosity",
-    "description": "Swim 3 CR Monstrosity",
-    "hit_points": 15,
-    "armor_class": 15,
-    "challenge_rating": 3,
-    "strength": 15,
-    "dexterity": 15,
-    "constitution": 15,
-    "intelligence": 15,
-    "wisdom": 15,
-    "charisma": 15,
-    "speed": {
-      "walk": 30,
-      "swim": 30
+    {
+      "name": "swim-300-monstrosity",
+      "description": "Swim 3 CR Monstrosity",
+      "hit_points": 15,
+      "armor_class": 15,
+      "challenge_rating": 3,
+      "strength": 15,
+      "dexterity": 15,
+      "constitution": 15,
+      "intelligence": 15,
+      "wisdom": 15,
+      "charisma": 15,
+      "speed": {
+        "walk": 30,
+        "swim": 30
+      },
+      "environments": ["Swamp", "Underdark"],
+      "type": "Monstrosity"
     },
-    "environments": [
-      "Swamp",
-      "Underdark"
-    ],
-    "type": "Monstrosity"
-  },
-  {
-    "name": "fly-300-monstrosity",
-    "description": "Fly 3 CR Monstrosity",
-    "hit_points": 15,
-    "armor_class": 15,
-    "challenge_rating": 3,
-    "strength": 15,
-    "dexterity": 15,
-    "constitution": 15,
-    "intelligence": 15,
-    "wisdom": 15,
-    "charisma": 15,
-    "speed": {
-      "walk": 30,
-      "swim": 30,
-      "fly": 30
+    {
+      "name": "fly-300-monstrosity",
+      "description": "Fly 3 CR Monstrosity",
+      "hit_points": 15,
+      "armor_class": 15,
+      "challenge_rating": 3,
+      "strength": 15,
+      "dexterity": 15,
+      "constitution": 15,
+      "intelligence": 15,
+      "wisdom": 15,
+      "charisma": 15,
+      "speed": {
+        "walk": 30,
+        "swim": 30,
+        "fly": 30
+      },
+      "environments": ["Underdark", "Arctic"],
+      "type": "Monstrosity"
     },
-    "environments": [
-      "Underdark",
-      "Arctic"
-    ],
-    "type": "Monstrosity"
-  },
-  {
-    "name": "walk-400-monstrosity",
-    "description": "Walk 4 CR Monstrosity",
-    "hit_points": 16,
-    "armor_class": 16,
-    "challenge_rating": 4,
-    "strength": 16,
-    "dexterity": 16,
-    "constitution": 16,
-    "intelligence": 16,
-    "wisdom": 16,
-    "charisma": 16,
-    "speed": {
-      "walk": 30
+    {
+      "name": "walk-400-monstrosity",
+      "description": "Walk 4 CR Monstrosity",
+      "hit_points": 16,
+      "armor_class": 16,
+      "challenge_rating": 4,
+      "strength": 16,
+      "dexterity": 16,
+      "constitution": 16,
+      "intelligence": 16,
+      "wisdom": 16,
+      "charisma": 16,
+      "speed": {
+        "walk": 30
+      },
+      "environments": ["Arctic", "Coast"],
+      "type": "Monstrosity"
     },
-    "environments": [
-      "Arctic",
-      "Coast"
-    ],
-    "type": "Monstrosity"
-  },
-  {
-    "name": "swim-400-monstrosity",
-    "description": "Swim 4 CR Monstrosity",
-    "hit_points": 16,
-    "armor_class": 16,
-    "challenge_rating": 4,
-    "strength": 16,
-    "dexterity": 16,
-    "constitution": 16,
-    "intelligence": 16,
-    "wisdom": 16,
-    "charisma": 16,
-    "speed": {
-      "walk": 30,
-      "swim": 30
+    {
+      "name": "swim-400-monstrosity",
+      "description": "Swim 4 CR Monstrosity",
+      "hit_points": 16,
+      "armor_class": 16,
+      "challenge_rating": 4,
+      "strength": 16,
+      "dexterity": 16,
+      "constitution": 16,
+      "intelligence": 16,
+      "wisdom": 16,
+      "charisma": 16,
+      "speed": {
+        "walk": 30,
+        "swim": 30
+      },
+      "environments": ["Coast", "Desert"],
+      "type": "Monstrosity"
     },
-    "environments": [
-      "Coast",
-      "Desert"
-    ],
-    "type": "Monstrosity"
-  },
-  {
-    "name": "fly-400-monstrosity",
-    "description": "Fly 4 CR Monstrosity",
-    "hit_points": 16,
-    "armor_class": 16,
-    "challenge_rating": 4,
-    "strength": 16,
-    "dexterity": 16,
-    "constitution": 16,
-    "intelligence": 16,
-    "wisdom": 16,
-    "charisma": 16,
-    "speed": {
-      "walk": 30,
-      "swim": 30,
-      "fly": 30
+    {
+      "name": "fly-400-monstrosity",
+      "description": "Fly 4 CR Monstrosity",
+      "hit_points": 16,
+      "armor_class": 16,
+      "challenge_rating": 4,
+      "strength": 16,
+      "dexterity": 16,
+      "constitution": 16,
+      "intelligence": 16,
+      "wisdom": 16,
+      "charisma": 16,
+      "speed": {
+        "walk": 30,
+        "swim": 30,
+        "fly": 30
+      },
+      "environments": ["Desert", "Forest"],
+      "type": "Monstrosity"
     },
-    "environments": [
-      "Desert",
-      "Forest"
-    ],
-    "type": "Monstrosity"
-  },
-  {
-    "name": "walk-500-monstrosity",
-    "description": "Walk 5 CR Monstrosity",
-    "hit_points": 17,
-    "armor_class": 17,
-    "challenge_rating": 5,
-    "strength": 17,
-    "dexterity": 17,
-    "constitution": 17,
-    "intelligence": 17,
-    "wisdom": 17,
-    "charisma": 17,
-    "speed": {
-      "walk": 30
+    {
+      "name": "walk-500-monstrosity",
+      "description": "Walk 5 CR Monstrosity",
+      "hit_points": 17,
+      "armor_class": 17,
+      "challenge_rating": 5,
+      "strength": 17,
+      "dexterity": 17,
+      "constitution": 17,
+      "intelligence": 17,
+      "wisdom": 17,
+      "charisma": 17,
+      "speed": {
+        "walk": 30
+      },
+      "environments": ["Forest", "Grassland"],
+      "type": "Monstrosity"
     },
-    "environments": [
-      "Forest",
-      "Grassland"
-    ],
-    "type": "Monstrosity"
-  },
-  {
-    "name": "swim-500-monstrosity",
-    "description": "Swim 5 CR Monstrosity",
-    "hit_points": 17,
-    "armor_class": 17,
-    "challenge_rating": 5,
-    "strength": 17,
-    "dexterity": 17,
-    "constitution": 17,
-    "intelligence": 17,
-    "wisdom": 17,
-    "charisma": 17,
-    "speed": {
-      "walk": 30,
-      "swim": 30
+    {
+      "name": "swim-500-monstrosity",
+      "description": "Swim 5 CR Monstrosity",
+      "hit_points": 17,
+      "armor_class": 17,
+      "challenge_rating": 5,
+      "strength": 17,
+      "dexterity": 17,
+      "constitution": 17,
+      "intelligence": 17,
+      "wisdom": 17,
+      "charisma": 17,
+      "speed": {
+        "walk": 30,
+        "swim": 30
+      },
+      "environments": ["Grassland", "Mountain"],
+      "type": "Monstrosity"
     },
-    "environments": [
-      "Grassland",
-      "Mountain"
-    ],
-    "type": "Monstrosity"
-  },
-  {
-    "name": "fly-500-monstrosity",
-    "description": "Fly 5 CR Monstrosity",
-    "hit_points": 17,
-    "armor_class": 17,
-    "challenge_rating": 5,
-    "strength": 17,
-    "dexterity": 17,
-    "constitution": 17,
-    "intelligence": 17,
-    "wisdom": 17,
-    "charisma": 17,
-    "speed": {
-      "walk": 30,
-      "swim": 30,
-      "fly": 30
+    {
+      "name": "fly-500-monstrosity",
+      "description": "Fly 5 CR Monstrosity",
+      "hit_points": 17,
+      "armor_class": 17,
+      "challenge_rating": 5,
+      "strength": 17,
+      "dexterity": 17,
+      "constitution": 17,
+      "intelligence": 17,
+      "wisdom": 17,
+      "charisma": 17,
+      "speed": {
+        "walk": 30,
+        "swim": 30,
+        "fly": 30
+      },
+      "environments": ["Mountain", "Swamp"],
+      "type": "Monstrosity"
     },
-    "environments": [
-      "Mountain",
-      "Swamp"
-    ],
-    "type": "Monstrosity"
-  },
-  {
-    "name": "walk-600-monstrosity",
-    "description": "Walk 6 CR Monstrosity",
-    "hit_points": 18,
-    "armor_class": 18,
-    "challenge_rating": 6,
-    "strength": 18,
-    "dexterity": 18,
-    "constitution": 18,
-    "intelligence": 18,
-    "wisdom": 18,
-    "charisma": 18,
-    "speed": {
-      "walk": 30
+    {
+      "name": "walk-600-monstrosity",
+      "description": "Walk 6 CR Monstrosity",
+      "hit_points": 18,
+      "armor_class": 18,
+      "challenge_rating": 6,
+      "strength": 18,
+      "dexterity": 18,
+      "constitution": 18,
+      "intelligence": 18,
+      "wisdom": 18,
+      "charisma": 18,
+      "speed": {
+        "walk": 30
+      },
+      "environments": ["Swamp", "Underdark"],
+      "type": "Monstrosity"
     },
-    "environments": [
-      "Swamp",
-      "Underdark"
-    ],
-    "type": "Monstrosity"
-  },
-  {
-    "name": "swim-600-monstrosity",
-    "description": "Swim 6 CR Monstrosity",
-    "hit_points": 18,
-    "armor_class": 18,
-    "challenge_rating": 6,
-    "strength": 18,
-    "dexterity": 18,
-    "constitution": 18,
-    "intelligence": 18,
-    "wisdom": 18,
-    "charisma": 18,
-    "speed": {
-      "walk": 30,
-      "swim": 30
+    {
+      "name": "swim-600-monstrosity",
+      "description": "Swim 6 CR Monstrosity",
+      "hit_points": 18,
+      "armor_class": 18,
+      "challenge_rating": 6,
+      "strength": 18,
+      "dexterity": 18,
+      "constitution": 18,
+      "intelligence": 18,
+      "wisdom": 18,
+      "charisma": 18,
+      "speed": {
+        "walk": 30,
+        "swim": 30
+      },
+      "environments": ["Underdark", "Arctic"],
+      "type": "Monstrosity"
     },
-    "environments": [
-      "Underdark",
-      "Arctic"
-    ],
-    "type": "Monstrosity"
-  },
-  {
-    "name": "fly-600-monstrosity",
-    "description": "Fly 6 CR Monstrosity",
-    "hit_points": 18,
-    "armor_class": 18,
-    "challenge_rating": 6,
-    "strength": 18,
-    "dexterity": 18,
-    "constitution": 18,
-    "intelligence": 18,
-    "wisdom": 18,
-    "charisma": 18,
-    "speed": {
-      "walk": 30,
-      "swim": 30,
-      "fly": 30
+    {
+      "name": "fly-600-monstrosity",
+      "description": "Fly 6 CR Monstrosity",
+      "hit_points": 18,
+      "armor_class": 18,
+      "challenge_rating": 6,
+      "strength": 18,
+      "dexterity": 18,
+      "constitution": 18,
+      "intelligence": 18,
+      "wisdom": 18,
+      "charisma": 18,
+      "speed": {
+        "walk": 30,
+        "swim": 30,
+        "fly": 30
+      },
+      "environments": ["Arctic", "Coast"],
+      "type": "Monstrosity"
     },
-    "environments": [
-      "Arctic",
-      "Coast"
-    ],
-    "type": "Monstrosity"
-  },
-  {
-    "name": "walk-700-monstrosity",
-    "description": "Walk 7 CR Monstrosity",
-    "hit_points": 19,
-    "armor_class": 19,
-    "challenge_rating": 7,
-    "strength": 19,
-    "dexterity": 19,
-    "constitution": 19,
-    "intelligence": 19,
-    "wisdom": 19,
-    "charisma": 19,
-    "speed": {
-      "walk": 30
+    {
+      "name": "walk-700-monstrosity",
+      "description": "Walk 7 CR Monstrosity",
+      "hit_points": 19,
+      "armor_class": 19,
+      "challenge_rating": 7,
+      "strength": 19,
+      "dexterity": 19,
+      "constitution": 19,
+      "intelligence": 19,
+      "wisdom": 19,
+      "charisma": 19,
+      "speed": {
+        "walk": 30
+      },
+      "environments": ["Coast", "Desert"],
+      "type": "Monstrosity"
     },
-    "environments": [
-      "Coast",
-      "Desert"
-    ],
-    "type": "Monstrosity"
-  },
-  {
-    "name": "swim-700-monstrosity",
-    "description": "Swim 7 CR Monstrosity",
-    "hit_points": 19,
-    "armor_class": 19,
-    "challenge_rating": 7,
-    "strength": 19,
-    "dexterity": 19,
-    "constitution": 19,
-    "intelligence": 19,
-    "wisdom": 19,
-    "charisma": 19,
-    "speed": {
-      "walk": 30,
-      "swim": 30
+    {
+      "name": "swim-700-monstrosity",
+      "description": "Swim 7 CR Monstrosity",
+      "hit_points": 19,
+      "armor_class": 19,
+      "challenge_rating": 7,
+      "strength": 19,
+      "dexterity": 19,
+      "constitution": 19,
+      "intelligence": 19,
+      "wisdom": 19,
+      "charisma": 19,
+      "speed": {
+        "walk": 30,
+        "swim": 30
+      },
+      "environments": ["Desert", "Forest"],
+      "type": "Monstrosity"
     },
-    "environments": [
-      "Desert",
-      "Forest"
-    ],
-    "type": "Monstrosity"
-  },
-  {
-    "name": "fly-700-monstrosity",
-    "description": "Fly 7 CR Monstrosity",
-    "hit_points": 19,
-    "armor_class": 19,
-    "challenge_rating": 7,
-    "strength": 19,
-    "dexterity": 19,
-    "constitution": 19,
-    "intelligence": 19,
-    "wisdom": 19,
-    "charisma": 19,
-    "speed": {
-      "walk": 30,
-      "swim": 30,
-      "fly": 30
-    },
-    "environments": [
-      "Forest",
-      "Grassland"
-    ],
-    "type": "Monstrosity"
-  }
-]
+    {
+      "name": "fly-700-monstrosity",
+      "description": "Fly 7 CR Monstrosity",
+      "hit_points": 19,
+      "armor_class": 19,
+      "challenge_rating": 7,
+      "strength": 19,
+      "dexterity": 19,
+      "constitution": 19,
+      "intelligence": 19,
+      "wisdom": 19,
+      "charisma": 19,
+      "speed": {
+        "walk": 30,
+        "swim": 30,
+        "fly": 30
+      },
+      "environments": ["Forest", "Grassland"],
+      "type": "Monstrosity"
+    }
+  ]
+}

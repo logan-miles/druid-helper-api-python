@@ -16,9 +16,8 @@ class WildshapeService(BaseModel):
     def get_wildshapes(self, druid: Druid) -> Wildshapes:
         # TODO: Add actual functionality
         monsters = self._monster_service.get_monsters().monsters
-        wildshapes = [m.to_wildshape() for m in cast(Iterable[Monster], monsters)]
-        wildshapes_dict = {"wildshapes": wildshapes}
-        wildshapes_actual = Wildshapes(**wildshapes_dict)
+        wildshapes = {"wildshapes": [m.to_wildshape() for m in cast(Iterable[Monster], monsters)]}
         
-        return wildshapes_actual
+        return Wildshapes(**wildshapes)
+        
         
