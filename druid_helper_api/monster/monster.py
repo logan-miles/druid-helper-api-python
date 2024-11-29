@@ -21,6 +21,3 @@ class Monster(BaseModel):
 
     def to_wildshape(self) -> Wildshape:
         return Wildshape(**self.model_dump())
-
-class Monsters(BaseModel):
-    monsters: List[Monster]

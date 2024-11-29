@@ -1,10 +1,9 @@
-from typing import Iterable, cast
+from typing import List
 from pydantic import BaseModel, PrivateAttr
 
 from druid_helper_api.druid.druid import Druid
-from druid_helper_api.monster.monster import Monster
 from druid_helper_api.monster.monster_service import MonsterService
-from druid_helper_api.wildshape.wildshape import Wildshape, Wildshapes
+from druid_helper_api.wildshape.wildshape import Wildshape
 
 class WildshapeService(BaseModel):
     _monster_service: MonsterService = PrivateAttr()
@@ -13,11 +12,10 @@ class WildshapeService(BaseModel):
         super().__init__()
         self._monster_service = monster_service
 
-    def get_wildshapes(self, druid: Druid) -> Wildshapes:
+    def get_wildshapes(self, druid: Druid) -> List[Wildshape]:
         # TODO: Add actual functionality
-        monsters = self._monster_service.get_monsters().monsters
-        wildshapes = {"wildshapes": [m.to_wildshape() for m in cast(Iterable[Monster], monsters)]}
+
+        return [m.to_wildshape() for m in self._monster_service.get_monsters()]
         
-        return Wildshapes(**wildshapes)
         
         

@@ -12,6 +12,3 @@ class Wildshape(BaseModel):
     constitution: int
     speed: Dict[str, int]
     environments: List[str]
-
-class Wildshapes(BaseModel):
-    wildshapes: List[Wildshape]

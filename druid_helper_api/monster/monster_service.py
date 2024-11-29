@@ -3,9 +3,9 @@ from typing import List
 
 from pydantic import BaseModel
 
-from druid_helper_api.monster.monster import Monsters
+from druid_helper_api.monster.monster import Monster
 
 class MonsterService(ABC, BaseModel):
     @abstractmethod
-    def get_monsters(self) -> Monsters:
+    def get_monsters(self) -> List[Monster]:
         pass
