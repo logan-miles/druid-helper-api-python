@@ -3,10 +3,10 @@ from typing import List
 from druid_helper_api.monster.monster import Monster
 from druid_helper_api.monster.monster_service import MonsterService
 from pathlib import Path
-from pydantic import PrivateAttr, TypeAdapter
+from pydantic import BaseModel, PrivateAttr, TypeAdapter
 
 
-class MonsterServiceJson(MonsterService):
+class MonsterServiceJson(MonsterService, BaseModel):
     _monsters: List[Monster] = PrivateAttr()
 
     def __init__(self, file: Path): 
@@ -18,3 +18,4 @@ class MonsterServiceJson(MonsterService):
 
     def get_monsters(self) -> List[Monster]:
         return self._monsters
+    
