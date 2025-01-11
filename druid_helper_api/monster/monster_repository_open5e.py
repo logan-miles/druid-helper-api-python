@@ -64,10 +64,6 @@ class MonsterRepositoryOpen5e(MonsterRepository, BaseModel):
 
         while url and failcount < 2:
             try:
-                # res1 = requests.get(url)
-                # json = res1.json()
-                # res =Open5eResponse(**json)
-
                 res = Open5eResponse(**requests.get(url).json())
                 failcount = 0
                 monsters.extend([Monster(**m.model_dump()) for m in res.results])
@@ -77,7 +73,5 @@ class MonsterRepositoryOpen5e(MonsterRepository, BaseModel):
                 url = re.sub(
                     r"page=(\d+)", lambda m: f"page={str(int(m.group(1)) + 1)}", url
                 )
-                # url = f'{self._base_url}?{urlencode(params)}'
-                print("bad")
 
         return monsters
