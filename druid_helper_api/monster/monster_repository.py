@@ -5,7 +5,7 @@ from pydantic import BaseModel
 
 from druid_helper_api.monster.monster import Monster
 
-class MonsterService(ABC, BaseModel):
+class MonsterRepository(ABC, BaseModel):
     @abstractmethod
     def get_monsters(self) -> List[Monster]:
         pass

@@ -1,12 +1,12 @@
 import json
 from typing import List
 from druid_helper_api.monster.monster import Monster
-from druid_helper_api.monster.monster_service import MonsterService
+from druid_helper_api.monster.monster_repository import MonsterRepository
 from pathlib import Path
 from pydantic import BaseModel, PrivateAttr, TypeAdapter
 
 
-class MonsterServiceJson(MonsterService, BaseModel):
+class MonsterRepositoryJson(MonsterRepository, BaseModel):
     _monsters: List[Monster] = PrivateAttr()
 
     def __init__(self, file: Path): 

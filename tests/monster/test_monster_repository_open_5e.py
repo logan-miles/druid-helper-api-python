@@ -8,7 +8,7 @@ import responses
 from pydantic import TypeAdapter
 
 from druid_helper_api.monster.monster import Monster
-from druid_helper_api.monster.monster_service_open5e import MonsterServiceOpen5e, Open5eResponse
+from druid_helper_api.monster.monster_repository_open5e import MonsterRepositoryOpen5e, Open5eResponse
 
 file_path: Path = Path('tests/monster/resources/open5e_monsters_paged.json')
 
@@ -41,7 +41,7 @@ def test_get_monsters_with_pages():
         match=[matchers.query_string_matcher("format=json&limit=10&page=3")]
     )
 
-    monster_service = MonsterServiceOpen5e(limit=10)
+    monster_service = MonsterRepositoryOpen5e(limit=10)
     monsters: List[Monster] = monster_service.get_monsters()
     assert len(monsters) == 30
 
@@ -69,7 +69,7 @@ def test_get_monsters_with_pages_failure():
         match=[matchers.query_string_matcher("format=json&limit=10&page=3")]
     )
 
-    monster_service = MonsterServiceOpen5e(limit=10)
+    monster_service = MonsterRepositoryOpen5e(limit=10)
     monsters: List[Monster] = monster_service.get_monsters()
     assert len(monsters) == 20
 
@@ -98,7 +98,7 @@ def test_get_monsters_with_pages_multiple_failures():
         match=[matchers.query_string_matcher("format=json&limit=10&page=3")]
     )
 
-    monster_service = MonsterServiceOpen5e(limit=10)
+    monster_service = MonsterRepositoryOpen5e(limit=10)
     monsters: List[Monster] = monster_service.get_monsters()
     assert len(monsters) == 10
 
@@ -126,12 +126,12 @@ def test_get_monsters_first_page_failure():
         match=[matchers.query_string_matcher("format=json&limit=10&page=3")]
     )
 
-    monster_service = MonsterServiceOpen5e(limit=10)
+    monster_service = MonsterRepositoryOpen5e(limit=10)
     monsters: List[Monster] = monster_service.get_monsters()
     assert len(monsters) == 0
 
 @pytest.mark.skip(reason="Manual only for testing real source")
 def test_real():
-    monster_service = MonsterServiceOpen5e(limit=100)
+    monster_service = MonsterRepositoryOpen5e(limit=100)
     monsters: List[Monster] = monster_service.get_monsters()
     assert len(monsters) > 1

@@ -1,13 +1,13 @@
 from pathlib import Path
 from typing import List
 from druid_helper_api.druid.druid import Druid
-from druid_helper_api.monster.monster_service_json import MonsterServiceJson
+from druid_helper_api.monster.monster_repository_json import MonsterRepositoryJson
 from druid_helper_api.wildshape.wildshape import Wildshape
 from druid_helper_api.wildshape.wildshape_service import WildshapeService
 
 
 file_path: Path = Path(__file__).parent.parent.joinpath("monster/local_monsters.json")
-monster_service = MonsterServiceJson(file_path)
+monster_service = MonsterRepositoryJson(file_path)
 
 wildshape_service = WildshapeService(monster_service = monster_service)
 

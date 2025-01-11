@@ -6,7 +6,7 @@ from pydantic import BaseModel, PrivateAttr, computed_field
 import requests
 
 from druid_helper_api.monster.monster import Monster
-from druid_helper_api.monster.monster_service import MonsterService
+from druid_helper_api.monster.monster_repository import MonsterRepository
 from druid_helper_api.wildshape.wildshape import Wildshape
 
 class Open5eMonster(BaseModel):
@@ -42,7 +42,7 @@ class Open5eResponse(BaseModel):
     previous: Optional[str]
     results: List[Open5eMonster]
 
-class MonsterServiceOpen5e(MonsterService, BaseModel):
+class MonsterRepositoryOpen5e(MonsterRepository, BaseModel):
     _base_url: str = PrivateAttr()
     _params: OrderedDict = PrivateAttr()
 
