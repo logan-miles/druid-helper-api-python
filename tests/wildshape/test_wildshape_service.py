@@ -6,7 +6,7 @@ from druid_helper_api.wildshape.wildshape import Wildshape
 from druid_helper_api.wildshape.wildshape_service import WildshapeService
 
 
-file_path: Path = Path(__file__).parent.parent.joinpath("monster/local_monsters.json")
+file_path: Path = Path('tests/monster/local_monsters.json')
 monster_service = MonsterRepositoryJson(file_path)
 
 wildshape_service = WildshapeService(monster_service = monster_service)
