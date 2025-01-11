@@ -5,6 +5,7 @@ from druid_helper_api.druid.druid import Druid
 from druid_helper_api.monster.monster_repository import MonsterRepository
 from druid_helper_api.wildshape.wildshape import Wildshape
 
+
 class WildshapeService(BaseModel):
     _monster_service: MonsterRepository = PrivateAttr()
 
@@ -16,6 +17,3 @@ class WildshapeService(BaseModel):
         # TODO: Add actual functionality
 
         return [m.to_wildshape() for m in self._monster_service.get_monsters()]
-        
-        
-        

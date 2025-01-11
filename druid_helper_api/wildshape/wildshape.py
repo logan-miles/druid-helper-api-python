@@ -1,6 +1,7 @@
 from typing import Dict, List
 from pydantic import BaseModel
 
+
 class Wildshape(BaseModel):
     name: str
     description: str

@@ -3,7 +3,7 @@ from druid_helper_api.wildshape.wildshape import Wildshape
 
 
 def test_monster_to_wildshape():
-    monster_json = '''{
+    monster_json = """{
       "name": "walk-000",
       "description": "Walk 0 CR",
       "hit_points": 10,
@@ -23,7 +23,7 @@ def test_monster_to_wildshape():
         "Coast"
       ],
       "type": "Beast"
-    }'''
+    }"""
     monster: Monster = Monster.model_validate_json(monster_json)
 
     wildshape: Wildshape = monster.to_wildshape()

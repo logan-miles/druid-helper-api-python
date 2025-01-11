@@ -3,6 +3,7 @@ from pydantic import BaseModel
 
 from druid_helper_api.wildshape.wildshape import Wildshape
 
+
 class Monster(BaseModel):
     name: str
     description: str

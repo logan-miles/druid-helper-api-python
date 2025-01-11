@@ -6,11 +6,16 @@ from druid_helper_api.wildshape.wildshape import Wildshape
 from druid_helper_api.wildshape.wildshape_service import WildshapeService
 
 
-file_path: Path = Path('tests/monster/local_monsters.json')
+file_path: Path = Path("tests/monster/local_monsters.json")
 monster_service = MonsterRepositoryJson(file_path)
 
-wildshape_service = WildshapeService(monster_service = monster_service)
+wildshape_service = WildshapeService(monster_service=monster_service)
+
 
 def test_init():
-    walk_000: List[Wildshape] = [ws for ws in wildshape_service.get_wildshapes(Druid(level=1, subclass="moon")) if ws.name == "walk-000"]
+    walk_000: List[Wildshape] = [
+        ws
+        for ws in wildshape_service.get_wildshapes(Druid(level=1, subclass="moon"))
+        if ws.name == "walk-000"
+    ]
     assert len(walk_000) == 1
